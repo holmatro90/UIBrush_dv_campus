@@ -1,0 +1,191 @@
+h1 {
+  a {
+    color: #f36b47;
+    font: 72px sans-serif;
+    text-decoration: none;
+
+    span {
+      color: #4c4c4b;
+    }
+  }
+}
+
+.menu {
+  background: none;
+  border: none;
+
+  i {
+    color: #f36b47;
+  }
+}
+
+.slider-section {
+  background: url("../img/background.jpg") center;
+  height: 70vh;
+  text-align: center;
+
+  p {
+    color: #eff7f8;
+    font: 18px sans-serif 500;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+  }
+}
+
+.slider-footer {
+  background: #f36b47;
+  height: 20vh;
+  text-align: center;
+
+  p {
+    color: #fffffc;
+    font: 18px sans-serif 500;
+    font-family: "Ubuntu", sans-serif;
+
+    span {
+      text-decoration-line: underline;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.about {
+  text-align: center;
+
+  h2 {
+    color: #484848;
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+    border-bottom: solid #f36b47;
+  }
+
+  p {
+    color: #9d9c9c;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      text-align: center;
+
+      i {
+        color: #f36b47;
+      }
+
+      h3 {
+        color: #2e2e2e;
+        font: 24px sans-serif;
+      }
+
+      p {
+
+      }
+    }
+  }
+}
+
+.porfolio {
+  text-align: center;
+
+  h2 {
+    color: #484848;
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+    border-bottom: solid #f36b47;
+  }
+
+  p {
+    color: #9d9c9c;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      h3 {
+        color: #fe5c32;
+        font-size: 20px;
+        font-family: "Ubuntu", sans-serif;
+      }
+
+      p {
+        color: #605f5f;
+      }
+    }
+  }
+}
+
+.talk {
+  text-align: center;
+  background: #7a7a7a;
+
+  h2 {
+    font-size: 60px;
+    font-family: "Ubuntu", sans-serif;
+
+    span {
+      color: #fe5c32;
+    }
+  }
+
+  p {
+    color: #fffffc;
+    font: 18px sans-serif 500;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+
+.contact {
+  text-align: center;
+  h2 {
+    color: #484848;
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+    border-bottom: solid #f36b47;
+  }
+
+  p {
+    color: #9d9c9c;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+}
+
+.contact-form {
+  h3 {
+    color: #484848;
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+    border-bottom: solid #f36b47;
+  }
+  ul {
+    list-style: none;
+    li{
+      a {
+        color: #9d9c9c;
+        font-size: 26px;
+        font-family: "Ubuntu", sans-serif;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
