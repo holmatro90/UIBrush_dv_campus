@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>UIbrush</title>
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesom/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b4cb2b8c1f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,7 +17,7 @@
         <h1 class="logo"><a href="#">UI<span>Brush</span></a></h1>
     </nav>
 </header>
-<section>
+<section class="slider">
     <div class="slider-section">
         <p>Welcome To UIBrush</p>
         <p>We Provide Ultimate Templates</p>
@@ -34,7 +33,7 @@
             dolore magna aliqua. Ut enim ad minim veniam, ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in
             voluptate velit e sse cillum.</p>
-        <ul>
+        <ul class="about-list">
             <li>
                 <i class="fas fa-list fa-2x"></i>
                 <h3>Innovative Design</h3>
@@ -103,23 +102,25 @@
             amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore eturet dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
             irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-        <div class="map-responsive">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2482.949508365353!2d-0.106571484053907!3d51.51414231803101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo.235%2C%20New%20St%2C%2025th%20Sector%2C%20London%2C%20England!5e0!3m2!1sen!2sua!4v1571336554614!5m2!1sen!2sua"
-                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
+
         <div class="contact-form">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2482.949508365353!2d-0.106571484053907!3d51.51414231803101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo.235%2C%20New%20St%2C%2025th%20Sector%2C%20London%2C%20England!5e0!3m2!1sen!2sua!4v1571336554614!5m2!1sen!2sua"
+                        width="600" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
             <h3>Contact Details:</h3>
             <ul>
-                <li><a href="callto:+9109757203582">(+91) 0975 720 3582</a></li>
-                <li><a href="mailto:Email@domain.com">Email@domain.com</a></li>
-                <li><a href="">No.235, New St, 25th Sector,London,England</a></li>
+                <li><a class="phone" href="callto:+9109757203582">(+91) 0975 720 3582</a></li>
+                <li><a class="mail" href="mailto:Email@domain.com">Email&#64;domain.com</a></li>
+                <li><a class="location" href="https://goo.gl/maps/FNbV6QsJygzeKdhH6">No.235, New St, 25th
+                    Sector,London,England</a></li>
             </ul>
-            <form action="">
+            <form class="form" action="">
                 <ul>
                     <li><input type="text" placeholder="Name"></li>
                     <li><input type="text" placeholder="Email"></li>
-                    <li><textarea name="comment" id="" cols="25" rows="7" placeholder="Message"></textarea></li>
-                    <li><input type="submit"></li>
+                    <li><textarea name="comment" id="" cols="25" rows="8" placeholder="Message"></textarea></li>
+                    <li><input class="button" type="submit"></li>
                 </ul>
             </form>
         </div>
