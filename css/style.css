@@ -1,302 +1,296 @@
-@charset "UTF-8";
 body {
   margin: 0;
 }
-
 @media only screen and (min-device-width: 320px) {
-  nav {
-    height: 25vh;
-    padding: 1.5em;
-    text-align: center;
-  }
-  nav .menu {
-    background: none;
-    border: none;
-    float: right;
-  }
-  nav .menu i {
-    color: #f36b47;
-  }
-  nav h1 a {
-    color: #f36b47;
-    font: 72px sans-serif;
-    font-family: "PT Sans", sans-serif;
-    text-decoration: none;
-  }
-  nav h1 a span {
-    color: #4c4c4b;
-  }
-
-  h2 {
-    color: #484848;
-    display: inline-block;
-    font-size: 26px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
-    border-bottom: 2px solid #f36b47;
-  }
-
-  .slider .slider-section {
-    background: url("../img/background.jpg") center;
-    background-size: cover;
-    height: 70vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-content: center;
-  }
-  .slider .slider-section p {
-    color: #eff7f8;
-    font: 18px sans-serif 900;
-    font-family: "Ubuntu", sans-serif;
-    padding: 0.5em 2em;
-    background: #000000;
-    opacity: 0.5;
-  }
-  .slider .slider-footer {
-    background: #f36b47;
-    display: flex;
-    height: 13vh;
-    text-align: center;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-content: center;
-  }
-  .slider .slider-footer p {
-    color: #fffffc;
-    font: 16px sans-serif 500;
-    font-family: "Ubuntu", sans-serif;
-    margin: 0.5em 1em;
-  }
-  .slider .slider-footer p span {
-    text-decoration-line: underline;
-    text-transform: uppercase;
-  }
-
-  .about {
-    text-align: center;
-  }
-  .about p {
-    color: #9d9c9c;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 0 1em 2em 1em;
-  }
-  .about .about-list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
-    padding: 0;
-    margin: 3em 0 4em 0;
-  }
-  .about .about-list li {
-    width: 70%;
-  }
-  .about .about-list li i {
-    color: #f36b47;
-  }
-  .about .about-list li h3 {
-    color: #2e2e2e;
-    font: 22px sans-serif;
-  }
-  .about .about-list li p {
-    line-height: 18px;
-  }
-
-  .porfolio {
-    text-align: center;
-    margin-bottom: 5em;
-  }
-  .porfolio p {
-    color: #9d9c9c;
-    font-family: "Ubuntu", sans-serif;
-    margin: 0.5em 1em;
-  }
-  .porfolio ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
-  }
-  .porfolio ul li {
-    background: #eeeeee;
-    border: 1px solid #e0dddd;
-    margin: 2em 1em;
-  }
-  .porfolio ul li h3 {
-    color: #fe5c32;
-    font-size: 22px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    margin: 0;
-  }
-  .porfolio ul li p {
-    color: #605f5f;
-    margin: 0.5em;
-    border-top: 1px solid #e0dddd;
-    line-height: 26px;
-  }
-
-  .talk {
-    text-align: center;
-    background: #7a7a7a;
-    padding: 2em 0 4em 0;
-  }
-  .talk h2 {
-    border-bottom: none;
-    color: #ffffff;
-    font-size: 60px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-  }
-  .talk h2 span {
-    color: #f36b47;
-  }
-  .talk p {
-    color: #fffffc;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 24px;
-    line-height: 25px;
-    margin: 0 1em 0 0.5em;
-  }
-
-  .contact {
-    text-align: center;
-    padding-bottom: 7em;
-  }
-  .contact h2 {
-    font-size: 48px;
-    font-weight: 400;
-  }
-  .contact p {
-    color: #9d9c9c;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 24px;
-    line-height: 25px;
-    margin: 0.5em 1em;
-    padding: 1em 0 4em 0;
-  }
-
-  .map-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  .map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
-
-  .contact-form h3 {
-    color: #484848;
-    display: inline-block;
-    font-size: 48px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    border-bottom: 2px solid #f36b47;
-  }
-  .contact-form ul {
-    list-style: none;
-    padding: 0;
-  }
-  .contact-form ul li {
-    margin: 2.5em;
-  }
-  .contact-form ul li a {
-    color: #9d9c9c;
-    font-size: 30px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-  }
-
-  .phone::before {
-    font-family: "Font Awesome 5 Free";
-    content: "";
-    color: #f27554;
-    display: inline-block;
-    padding-right: 30px;
-    vertical-align: middle;
-    font-weight: 900;
-  }
-
-  .mail::before {
-    font-family: "Font Awesome 5 Free";
-    content: "";
-    color: #f27554;
-    display: inline-block;
-    padding-right: 30px;
-    vertical-align: middle;
-    font-weight: 900;
-  }
-
-  .location::before {
-    font-family: "Font Awesome 5 Free";
-    content: "";
-    color: #f27554;
-    display: inline-block;
-    padding-right: 30px;
-    vertical-align: middle;
-    font-weight: 900;
-  }
-
-  .form ul li {
-    margin: 0.5em;
-  }
-  .form ul li input {
-    background: #f0f0f0;
-    border: 1px solid #cac6c6;
-    color: #9d9c9c;
-    font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    width: 90%;
-    padding: 1em;
-  }
-  .form ul li textarea {
-    background: #f0f0f0;
-    border: 1px solid #cac6c6;
-    color: #9d9c9c;
-    font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    width: 90%;
-    padding: 1em;
-  }
-  .form ul li .button {
-    border: none;
-    border-radius: 4px;
-    background: #f27554;
-    color: #ffffff;
-    font: 20px sans-serif;
-    font-family: "PT Sans", sans-serif;
-    width: 70%;
-    padding: 0.5em;
-  }
-
-  footer {
-    text-align: center;
-    padding-bottom: 4em;
-  }
-  footer p {
-    background: #f37b5c;
-    color: #ffffff;
-    font: 20px sans-serif;
-    font-family: "PT Sans", sans-serif;
-    padding: 0.8em;
+  .about-list li {
+    flex-basis: 70%;
   }
 }
-
+@media only screen and (min-device-width: 540px) {
+  .about-list li {
+    flex-basis: 50%;
+  }
+}
+@media only screen and (min-device-width: 940px) {
+  .about-list li {
+    flex-basis: 22%;
+  }
+}
+nav {
+  height: 25vh;
+  padding: 1.5em;
+  text-align: center;
+}
+nav .menu {
+  background: none;
+  border: none;
+  float: right;
+}
+nav .menu i {
+  color: #f36b47;
+}
+nav h1 a {
+  color: #f36b47;
+  font: 72px sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+}
+nav h1 a span {
+  color: #4c4c4b;
+}
+h2 {
+  color: #484848;
+  display: inline-block;
+  font-size: 26px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  border-bottom: 2px solid #f36b47;
+}
+.slider .slider-section {
+  background: url("../img/background.jpg") center;
+  background-size: cover;
+  height: 70vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-content: center;
+}
+.slider .slider-section p {
+  color: #eff7f8;
+  font: 18px sans-serif 900;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0.5em 2em;
+  background: #000000;
+  opacity: 0.5;
+}
+.slider .slider-footer {
+  background: #f36b47;
+  display: flex;
+  height: 13vh;
+  text-align: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-content: center;
+}
+.slider .slider-footer p {
+  color: #fffffc;
+  font: 16px sans-serif 500;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0.5em 1em;
+}
+.slider .slider-footer p span {
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.about {
+  text-align: center;
+}
+.about p {
+  color: #9d9c9c;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 1em 2em 1em;
+}
+.about .about-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  padding: 0;
+  margin: 3em 0 4em 0;
+}
+.about .about-list li i {
+  color: #f36b47;
+}
+.about .about-list li h3 {
+  color: #2e2e2e;
+  font: 22px sans-serif;
+}
+.about .about-list li p {
+  line-height: 18px;
+}
+.porfolio {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.porfolio p {
+  color: #9d9c9c;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0.5em 1em;
+}
+.porfolio ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.porfolio ul li {
+  background: #eeeeee;
+  border: 1px solid #e0dddd;
+  margin: 2em 1em;
+}
+.porfolio ul li h3 {
+  color: #fe5c32;
+  font-size: 22px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.porfolio ul li p {
+  color: #605f5f;
+  margin: 0.5em;
+  border-top: 1px solid #e0dddd;
+  line-height: 26px;
+}
+.talk {
+  text-align: center;
+  background: #7a7a7a;
+  padding: 2em 0 4em 0;
+}
+.talk h2 {
+  border-bottom: none;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.talk h2 span {
+  color: #f36b47;
+}
+.talk p {
+  color: #fffffc;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  line-height: 25px;
+  margin: 0 1em 0 0.5em;
+}
+.contact {
+  text-align: center;
+  padding-bottom: 7em;
+}
+.contact h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+.contact p {
+  color: #9d9c9c;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  line-height: 25px;
+  margin: 0.5em 1em;
+  padding: 1em 0 4em 0;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.contact-form h3 {
+  color: #484848;
+  display: inline-block;
+  font-size: 48px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  border-bottom: 2px solid #f36b47;
+}
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+}
+.contact-form ul li {
+  margin: 2.5em;
+}
+.contact-form ul li a {
+  color: #9d9c9c;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+.phone::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f879";
+  color: #f27554;
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.mail::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f0e0";
+  color: #f27554;
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.location::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f3c5";
+  color: #f27554;
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.form ul li {
+  margin: 0.5em;
+}
+.form ul li input {
+  background: #f0f0f0;
+  border: 1px solid #cac6c6;
+  color: #9d9c9c;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  width: 90%;
+  padding: 1em;
+}
+.form ul li textarea {
+  background: #f0f0f0;
+  border: 1px solid #cac6c6;
+  color: #9d9c9c;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  width: 90%;
+  padding: 1em;
+}
+.form ul li .button {
+  border: none;
+  border-radius: 4px;
+  background: #f27554;
+  color: #ffffff;
+  font: 20px sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  width: 70%;
+  padding: 0.5em;
+}
+footer {
+  text-align: center;
+  padding-bottom: 4em;
+}
+footer p {
+  background: #f37b5c;
+  color: #ffffff;
+  font: 20px sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  padding: 0.8em;
+}
 /*# sourceMappingURL=style.css.map */

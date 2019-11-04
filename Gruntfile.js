@@ -8,10 +8,10 @@ module.exports = function(grunt) {
                     optimization: 2,
                     strictImports: true,
                     sourceMap: true,
-                    sourceMapFilename: '/css/responsive-styles.css.map', // where file is generated and located
-                    sourceMapURL: 'responsive-styles.css.map', // the complete url and filename put in the compiled css file
-                    sourceMapBasepath: 'pub', // Sets sourcemap base path, defaults to current working directory.
-                    sourceMapRootpath: '/', // adds this path onto the sourcemap filename and less file paths
+                    sourceMapFilename: 'css/style.css.map', // where file is generated and located
+                    sourceMapURL: 'style.css.map', // the complete url and filename put in the compiled css file
+                    sourceMapBasepath: '/', // Sets sourcemap base path, defaults to current working directory.
+                    sourceMapRootpath: './', // adds this path onto the sourcemap filename and less file paths
                 },
                 files: {
                     "css/style.css": "less/style.less"
